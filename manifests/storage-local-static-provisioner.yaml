@@ -49,8 +49,8 @@ data:
   useNodeNameOnly: "true"
   storageClassMap: |
     local-storage:
-       hostDir: /pv-disks
-       mountDir: /pv-disks
+       hostDir: /pv-disks/disks
+       mountDir: /pv-disks/disks
 ---
 apiVersion: apps/v1
 kind: DaemonSet
